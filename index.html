@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Actividad JavaScript</title>
+		<script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="css/estilos.css" />
+	</head>
+	<body>
+		<header>
+			<div class="container__menu">
+				<div class="menu" id="Selector">
+					<input type="checkbox" id="check__menu" />
+					<label for="check__menu" id="label__check">
+						<i class="fas fa-bars icon__menu">&nbsp;&nbsp;&nbsp;4SM3</i>
+					</label>
+					<nav>
+						<ul>
+							<li><a href="index.html" id="selected" class="grupo">4SM3</a></li>
+							<li>
+								<a href="#">Condicionales</a>
+								<ul>
+									<li><a href="#" onclick="condicionales(1)">Puedes Votar</a></li>
+									<li><a href="#" onclick="condicionales(2)">Mayor de 3 números</a></li>
+									<li>
+										<a href="#" onclick="condicionales(3)">Ejemplo Switch</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Ciclos</a>
+								<ul>
+									<li><a href="#" onclick="ciclos(1)">Pares 1-100 (FOR)</a></li>
+									<li><a href="#" onclick="ciclos(2)">Sumatoria 100 (FOR)</a></li>
+									<li><a href="#" onclick="ciclos(3)">Pares 1-100 (WHILE)</a></li>
+									<li><a href="#" onclick="ciclos(4)">Sumatoria 100 (WHILE)</a></li>
+									<li><a href="#" onclick="ciclos(5)">Pares 1-100 (DO-WHILE)</a></li>
+									<li><a href="#" onclick="ciclos(6)">Sumatoria 100 (DO-WHILE)</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Algoritmos de Ordenación (Arreglos)</a>
+								<ul>
+									<li><a href="#" onclick="ordenar(1)">Bubble Sort</a></li>
+									<li><a href="#" onclick="ordenar(2)">Insertion Sort</a></li>
+									<li><a href="#" onclick="ordenar(3)">Selection Sort</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Operaciones Base</a>
+								<ul>
+									<li><a href="#" onclick="operaciones(1)">Pares - Impares</a></li>
+									<li><a href="#" onclick="operaciones(2)">Tabla de Multiplicar</a></li>
+									<li><a href="#" onclick="operaciones(3)">Producto con sumas</a></li>
+									<li><a href="#" onclick="operaciones(4)">Número Mayor en un arreglo</a></li>
+									<li><a href="#" onclick="operaciones(5)">Suma de Arreglos</a></li>
+									<li><a href="#" onclick="operaciones(6)">Media Aritmética</a></li>
+									<li><a href="#" onclick="operaciones(7)">Operaciones de Textos</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main>
+			<article>
+				<h1 id="titulo">Titulo de lo que seleccionamos</h1>
+				<div>
+					<h3 id="contenido">Contenido de la seleccion</h3>
+				</div>
+			</article>
+		</main>
+		<footer>
+			Hernández López Bryan - 4CM3
+		</footer>
+		<script src="js/condicionales.js"></script>
+		<script src="js/ciclos.js"></script>
+		<script src="js/ordenar.js"></script>
+		<script src="js/operaciones.js"></script>
+	</body>
+</html>
