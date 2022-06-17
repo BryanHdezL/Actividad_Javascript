@@ -13,7 +13,7 @@ function operaciones(a) {
         document.getElementById("titulo").innerHTML = "Tablas de Multiplicar";
         let num,i;
         let t="",tabla="";
-        num = prompt("Digite el numero a conocer su tabla de verdad: ");
+        num = prompt("Digite el numero a conocer su tabla de multiplicar: ");
         for(i=1;i<=10;i++){
             t = i+" x "+num+" = "+(i*num)+"<br>";
             tabla+=t;
