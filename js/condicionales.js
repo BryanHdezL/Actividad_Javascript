@@ -3,7 +3,7 @@ function condicionales(a) {
         document.getElementById("titulo").innerHTML = "Puedes Votar";
         let edad;
         edad = prompt("Digite una edad: ");
-        if ((edad >= 18)) {
+        if ((edad >= 18)&&(edad<=110)) {
             document.getElementById("contenido").innerHTML = "Si puedes votar.";
         }else{
             document.getElementById("contenido").innerHTML = "No puedes votar.";

@@ -129,7 +129,8 @@ nav ul li ul{
 
 nav ul li:hover ul{
     visibility: visible;
-    opacity: 1;
+    opacity: 0.8;
+    transition: 0.5 s;
     top: 70px;
 }
 
@@ -213,7 +214,7 @@ article p{
 
 h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: red;
     text-decoration: underline;
     text-transform: uppercase;
@@ -222,7 +223,7 @@ h1{
 h3{
     margin-top: 50px;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -259,6 +260,7 @@ h3{
 
     nav > ul > li > a:hover{
         transform: scale(1);
+        
     }
 
     nav ul li ul{
@@ -279,6 +281,7 @@ h3{
 
     #label__check{
         display: block;
+        
     }
 
     .icon__menu{
@@ -289,7 +292,7 @@ h3{
     #check__menu:checked ~ nav > ul{
         height: 300px;
         visibility: visible;
-        opacity: 1;
+        opacity: 0.8;
     }
 
     main{
